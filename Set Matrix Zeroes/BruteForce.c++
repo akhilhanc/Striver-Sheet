@@ -16,9 +16,9 @@ void setNegative(int row,int column,vector<vector<int>> &matrix,int rowSize,int 
 }
 int main()
 {
-    vector<vector<int>> matrix = {{1,1,1},{1,0,1},{1,1,1}};
-    int rowSize = matrix.size();
-    int colSize = matrix[0].size();
+    vector<vector<int>> matrix = {{1,1,1},{1,0,1},{1,1,1}}; //Matrix Values
+    int rowSize = matrix.size(); //Row Size
+    int colSize = matrix[0].size(); //Column Size
     for(int i = 0;i<rowSize;i++)
     {
         for(int j = 0;j<colSize;j++)
